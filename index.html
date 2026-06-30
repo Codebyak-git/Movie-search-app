@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix Movie Search</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <h1><span>NETFLIX</span> MOVIES</h1>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <h2>Discover Your Favourite Movies</h2>
+
+        <p>Search thousands of movies instantly.</p>
+
+        <div class="search-box">
+
+            <input
+            type="text"
+            id="movie-name"
+            placeholder="Search Movie...">
+
+            <button onclick="searchMovie()">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Movie Card -->
+
+    <section class="movie-card">
+
+        <div class="poster">
+
+           <img
+    id="poster"
+    src="https://dummyimage.com/300x450/1f1f1f/ffffff&text=Movie+Poster"
+    alt="Movie Poster">
+
+        </div>
+
+        <div class="details">
+
+            <h1 id="title">Movie Title</h1>
+
+            <div class="badges">
+
+                <span id="year">Year</span>
+
+                <span id="rating">⭐ IMDb</span>
+
+                <span id="runtime">Runtime</span>
+
+            </div>
+
+            <h3>Genre</h3>
+            <p id="genre">Action</p>
+
+            <h3>Director</h3>
+            <p id="director">Director Name</p>
+
+            <h3>Actors</h3>
+            <p id="actors">Actors</p>
+
+            <h3>Language</h3>
+            <p id="language">English</p>
+
+            <h3>Plot</h3>
+            <p id="plot">
+
+                Search a movie to see its details.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
